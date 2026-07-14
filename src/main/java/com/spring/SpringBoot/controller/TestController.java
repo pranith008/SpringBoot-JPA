@@ -3,7 +3,7 @@ package com.spring.SpringBoot.controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@RestController //to return raw Json data
 public class TestController {
 	@RequestMapping("/test")  //endpoint
 	public String test()
